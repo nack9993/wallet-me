@@ -4,6 +4,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
+      primary: "#201A20",
       white: "#ffffff",
       tahiti: {
         100: "#cffafe",
@@ -16,6 +17,19 @@ module.exports = {
         800: "#155e75",
         900: "#164e63",
       },
+      black: "#000000",
+      blue: {
+        100: "#2C2F68",
+        200: "#211A29",
+      },
+      purple: "#7e5bef",
+      pink: "#ff49db",
+      orange: "#ff7849",
+      green: "#13ce66",
+      yellow: "#ffc82c",
+      "gray-dark": "#273444",
+      gray: "#8492a6",
+      "gray-light": "#d3dce6",
     },
   },
   plugins: [],
