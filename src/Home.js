@@ -12,7 +12,6 @@ function Home() {
   const login = async () => {
     await authenticate({
       signingMessage: "Log in using Moralis",
-      email: "nack@buzzwoo.de",
     })
       .then(function (user) {
         console.log("logged in user:", user);
@@ -20,6 +19,7 @@ function Home() {
       })
       .catch(function (error) {
         console.log(error);
+        alert("Error: You not have metamask");
       });
   };
 
